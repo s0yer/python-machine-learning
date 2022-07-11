@@ -1,2 +1,2 @@
-# python-statistic
+# python-machine-learning
  tools for apps
