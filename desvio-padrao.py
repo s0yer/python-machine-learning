@@ -18,3 +18,7 @@ print(lista_random)
 x_desviopadrao = numpy.std(lista_random)
 
 print(x_desviopadrao)
+
+#percentagem
+p = numpy.percentile(lista_random, 250)
+print(p)
