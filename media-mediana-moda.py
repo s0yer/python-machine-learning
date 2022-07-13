@@ -1,6 +1,8 @@
+# mean, median, mode
 
 import random
 import numpy
+from scipy import stats
 
 lista_random = []
 
@@ -14,6 +16,10 @@ while i < size:
 print(len(lista_random))
 print(lista_random)
 
-xmean = numpy.mean(lista_random)
+x_media = numpy.mean(lista_random)
+x_mediana = numpy.median(lista_random)
+x_moda = stats.mode(lista_random)
 
-print(xmean)
+print(x_media)
+print(x_mediana)
+print(x_moda)
