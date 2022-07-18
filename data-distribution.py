@@ -17,3 +17,8 @@ print("-----------------------------")
 # desenha histograma
 plt.hist(lista_random, 555)
 plt.show()
+
+#distribuicao de dados normal
+lista_normal = numpy.random.normal(10, 1, 100000)
+plt.hist(lista_normal, 100)
+plt.show()
