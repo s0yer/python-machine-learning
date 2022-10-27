@@ -14,7 +14,10 @@ data = plt.scatter(lista_random_x, lista_random_y)
 plt.show()
 
 #salva dados em txt
+#salva dados em txt
 file = open("log_execucoes_mach_learning.txt", "a")
-file.write(data)
+file.write(str(lista_random_x))
+file.write(str(lista_random_y))
+file.write(str(data))
 file.close()
 
